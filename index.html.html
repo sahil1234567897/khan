@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .body{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        background-color: rgb(4, 4, 59);
+        border-bottom: 1px solid white;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+    }
+    .logo img{
+        border-radius: 50px;
+    }
+    button{
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    ul {
+        list-style: none;
+    }
+    ul li a{
+        text-decoration: none;
+    }
+    .photo {
+        background-color: rgb(4, 4, 59);
+     padding-right: 200px;
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+    .photo h1{
+        color: white;
+    }
+    .center{
+        margin-top: 20px;
+    }
+    .center h1{
+        text-align: center;
+    }
+    .center p{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .med{
+        display: flex;
+        justify-content: space-around;
+    }
+    .men{
+        display: flex;
+        justify-content: space-around;
+    }
+    section{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .meet{
+        padding: 30px;
+        font-size: 20px;
+        
+    }
+    .pic{
+        width: 700px;
+        margin-top: 40px;
+        
+    }
+    .photo h1{
+        padding: 30px;
+    }
+    
+    .third{
+        display: flex;
+        justify-content: space-between; 
+    }
+    .pics{
+        display: flex;
+        margin-top: 80px;
+        
+        text-align: center;
+        justify-content: space-between;
+        margin-left: 50px;
+    }
+    .aa{
+        margin-right: 80px;
+        
+    }
+    .bb{
+        margin-right: 80px;
+    }
+    .third h2{
+        text-align: center;
+    }
+    .cc{
+        padding-right: 60px;
+    }
+    .med{
+        margin-top: 20px;
+    }
+    .men{
+        margin-top: 20px;
+    }
+    .picss{
+        background-color: rgb(4, 4, 59);
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        color: white;
+    }
+    .picss h1{
+        padding-left: 70px;
+    }
+    .picss p{
+        padding: 10px;
+        margin-top: 80px;
+    }
+    
+    .linne{
+        margin-top: 30px;
+    }
+    .pp{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid black;
+        padding: 30px;
+    }
+    .face{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid black;
+        padding: 30px;
+
+    }
+    .make{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid black;
+        padding: 30px;
+        
+    }
+    .main{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid black;
+        padding: 30px;
+    }
+    .after{
+        margin-top: 40px;
+    }
+    .after video{
+                width: 200%;
+                height: auto;
+                margin-left: 100px;
+    }
+    .after h2{
+        text-align: center;
+    }
+    .paragraph{
+        margin-top: 80px;
+        text-align: center;
+        align-items: center;
+        margin-left: 500px;
+    }
+    
+    .back{
+        background-image: url(Welcome\ Scan.jpg);
+        width: 100%;
+        height: 500px;
+        padding: 50px;
+        
+    }
+    .back h1{
+        margin-bottom: 20px;
+    }
+    .h1{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+       
+        height: auto;
+        padding: 40px;
+        border-bottom: 1px solid black ;
+        
+    }
+    .inside{
+        background-color: rgb(4, 4, 59);
+       padding: 60px;
+       padding-top: 60px;
+    }
+    .inside h2{
+        color: white;
+        
+    }
+    .inside button{
+        padding: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .ff{
+        margin-left: 5px;
+    }
+    .forrm button{
+        background-color: yellow;
+    }
+    .dark{
+        background-color: whitesmoke;
+        padding: 10px;
+    }
+    #form{
+        padding-left: 200px;
+    }
+    .us a{
+        font-size: 40px;
+        margin: 10px;
+        text-decoration: none;
+    }
+    .us h4{
+        text-align: center;
+    }
+    .us{
+        margin-top: 400px;
+    }
+    
+    .foote{
+        display: flex;
+        
+    }
+    .res{
+        padding: 30px;
+    }
+    .inds{
+        padding: 30px;
+    }
+    .ser{
+        padding: 30px;
+    }
+    #foot{
+        border-bottom: 1px solid black;
+    }
+    footer{
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    footer h5{
+        text-align: center;
+    }
+    .fa{
+        text-align: center;
+        margin-left: 100px;
+        text-decoration: none;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        margin: 5px;
+    }
+    .fa a{
+        text-decoration: none;
+
+        }
+    
+    
+</style>
+<body>
+    <header>
+    <div class="logo">
+        <nav>
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="IMG-20250203-WA0010.jpg" width="100px" >
+        <div class="button">
+        <button>Apply</button>
+    </div>
+    </div>
+    </header>
+    <main>
+        <section id="sec">
+        <div class="photo">
+            <img src="pic 1.jpg" width="750px">
+        
+        <h1>GLOBAL <br> RECOGNITION <br> AWARENESS <br><br> Get Your Business On The Global Stage </h1>
+        
+        
+    </section>
+    
+    </div>
+    <div class="center">
+        <h1>WE SELEBRATE OUTSTANDING ACHIEVEMENT</h1>
+
+        <p style="width: 800px;">Join the ranks of top perfomers and gain international recognition for your business or brand.Celebrate Your Busniness Achievements on a Global Stage with GRA</p>
+    </div>
+    <div class="med">
+        <h1>Forbes</h1>
+        <h4>BUSNINESS INSIDER</h4>
+        <h1>Enterpreneur</h1>
+    </div>
+    <div class="men">
+        <h1>GRAZIA</h1>
+        <h2>International <br>
+            Busniness <br>
+            Times <br>
+        </h2>
+        <h1>DIGITAL <br>
+            JOURNAL
+        </h1>
+    </div>
+    <section>
+        <div class="meet">
+            
+            <h1>Gain International Recognition</h1>
+            <p style="width: 300px;">
+                Global Recognition Awards provides busninesses and individals with the opportunity to gain glbal recognition for their achievements in the business sphere.
+            </p>
+            
+            <h1>Stand Out from the Crowd</h1>
+            <p  style="width: 400px;">In today's compitive business landscape,it's essential to stand out from the crowd.By winning an award from Global Recognition Awards,you can set yourself apart from your competitors and establish your self as a leader in your field.</p>
+            
+            <h1>Inspire Your Team</h1> 
+            <p style="width: 300px;">Winning an award from Global Recognition Awards can do more than just recognize your individal accomplishments.It can also inspire your team to reach new height and achieve greater seccess. </p>
+        </div>
+            <div class="pic">
+            <img src="pic 2.jpg" width="300px">
+        
+            
+        </div>
+    </section>
+    <section id="third">
+        <div class="third">
+        
+            <h2>RECENT AWARDS</2>
+        
+            <div class="pics">
+                <div class="aa">
+                <img src="Screenshot_20250203_202728.jpg" width="400px">
+                <h3>Large Language Models</h3>
+                <p>outsatanding Achievement 2025</p> <br>
+                <button>Read More</button>
+            </div>
+            <div class="bb">
+                <img src="Screenshot_20250203_202728.jpg" width="400px">
+                <h3>Sustainable Luxury Travel</h3>
+                <p>Innovation Award 2025</p> <br>
+                <button>Read More</button>
+            </div>
+            <div class="cc">
+                <img src="pic5.jpg" width="400px">
+                <h3>Outsourcing</h3>
+                <p>Disruption Award 2025</p> <br>
+                <button>Read More</button>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="fics">
+    <div class="picss">
+        <img src="pic 3.jpg" width="700px">
+    
+        <h1>GAIN CRIDIBILITY AND TRUS</h1>
+        <p>Winning an sward from Glabal Recognition Awards can help you establish credibility and trust with your customers and partners.It shows that you have been recognized by industry experts and peers for your accomplishments and expertise. </p>
+        <div class="bat">
+            <button>Apply</button>
+        </div>
+        
+    </div>
+</section>
+
+    <div class="linne">
+        <h2>WHAT MAKES GLOBAL RECOGNITION AWARDS DIFFERENT?</h2>
+        <P style="width: 850px;">Global Recognition Awards is the best business award compitition in the industry.This pristigous awards program recognizes busninesses and individal from all over the world for their exceptional achievements and contributions to their respective industries.</P>
+    </div>
+    <div class="pp">
+        <h4>Increase brand awareness</h4>
+        <p style="width: 350px;">Winning a Global Recognition Award can open doors and provide a competitive edge for your business.The recognition and prestige associated with this award can help your business stand out in a crowded market and attract new customers and partners.</p>
+    </div>
+    <div class="face">
+        <h4>Help you become a business leader in your field</h4>
+        <p style="width: 350px;">This can be espacially beneficial for small busninesses that are just starting out and trying to establish themseleves in a crowded market.</p>
+    </div>
+    <div class="make">
+        <h4>Provide a boost in morale for small business owners and their employees</h4>
+        <p style="width: 350px;">Many awards programs include events or ceremonies where winners have the opportunity to meet and connect with other successful business owers and industry leaders. </p>
+    </div>
+    <div class="main">
+        <h3>Winnnig a business award can have a significant <br> impact on the prospects of a small business.</h3>
+        <p style="width: 350px;">It can increase exposure, establish the buseness as a leader in its field, provide networking opportunities,and boost morale.All of these factors can contribute to the growth and success of a small business. </p>
+    </div>
+    <section id="after footer">
+        <div class="after">
+            <h2>GLOBAL RECOGNITION AWARDS SHINE A LIGHT ON YOUR HARD WORK </h2>
+            <video controls style="max-width: 100%; height: auto;">
+                <source src="sadd.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <div class="paragraph">
+        <p style="width: 600px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sapiente nemo molestias similique vero illo aspernatur officiis consectetur aliquam voluptate sit excepturi saepe sequi, aliquid quia quasi quidem. Inventore sint laudantium quibusdam, nesciunt tempore odio consequuntur praesentium aperiam error dolor blanditiis exercitationem eveniet corrupti veniam repudiandae voluptatem modi nostrum . <br> <br> Inventore sint laudantium quibusdam, nesciunt tempore odio consequuntur praesentium aperiam error dolor blanditiis exercitationem eveniet corrupti veniam repudiandae voluptatem modi nostrum corporis.</p>
+    </div>
+    <section id="pic body">
+        <div class="back">
+            <h1>IT'S YOUR TIME TO SHINE</h1>
+            <P style="width: 500px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur reprehenderit quod facilis aut placeat rem vitae, doloribus praesentium consequuntur commodi. Quam magnam odit, reiciendis debitis et vitae aperiam molestias omnis!</P>
+        </div>
+    </section>
+        <div class="h1">
+            <h1>READY TO TAKE YOUR <br> BUSNINESS TO THE NEXT <br> LEVEL?</h1>
+            <div class="inside">
+                <h2>Apply today and be a winner</h2> <br>
+                <button>Apply</button>
+            </div>
+        </div>
+    <section id="form">
+        <div class="us">
+            <h4>Follow Us:</h4> <br>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="forrm">
+            <form action="">
+                <label for="">First Name</label> <br>
+                <input type="text" style="width: 520px; height: 30px;"> <br> <br>
+                <label for="">Last Name</label> <br>
+                <input type="text" style="width: 520px; height: 30px;"> <br> <br>
+                <label for="">Email</label> <br>
+                <input type="email" style="width: 520px; height: 30px;"> <br> <br>
+                <label for="">Phone Numberr</label> <br>
+                <select name="" id="" style="height: 30px;">
+                <option value="">Pakistan(+92)</option>
+                <option value="">UK(+11)</option>
+                <option value="">UAE(+976)</option>
+                <option value="">SAR(+966)</option> 
+                <input type="tel" style="width: 405px; height: 30px;" class="ff" placeholder="***********"> <br><br>
+            </select>
+            <label for="">What industry are you in?</label> <br>
+            <input type="text" style="width: 520px; height: 30px;"> <br><br>
+            <label for="">Are you entering as a Company or an individal</label> <br>
+            <input type="text" style="width: 520px; height: 30px;" placeholder="Please Select"> <br><br>
+            <h4>Select one or more areas where you can demostrate excellence</h4> <br>
+            <p>Applicants must showcase exceptional or world-class ahciement for consideration</p> <br><br>
+            <input type="checkbox"> <label for="">Leadership</label> <br> <br>
+            <input type="checkbox"> <label for="">Service</label> <br> <br>
+            <input type="checkbox"> <label for="">Recearch</label> <br> <br>
+            <input type="checkbox"> <label for="">Innovation</label> <br> <br>
+            <input type="checkbox"> <label for="">Teaching</label> <br> <br>
+            <input type="checkbox"> <label for="">Mentoring</label> <br>  <br>
+            <input type="checkbox"> <label for="">Artistic accomplishment</label> <br><br>
+            <h4>Descibe why you are exceptional and provide examples to support your highest <br> ratings</h4>
+            <p>supporting to evidence showcase the significance of your achievements</p> <br>
+            <div class="dark">
+                <h2>Describe what you do,why you are exceptional <br> and examples and support your ratings above.</h2> <br> <br>
+            </div>
+             </form>
+             <button>Submit</button>
+        </div>
+    </section>
+    <section id="foot">
+        <div class="foote">
+            <div class="res">
+            <h4>Resources</h4> <br>
+           <h5><a href="">GRA Methodology</a></h5> <br>
+           <h5><a href="">Whit do winner recieve?</a></h5> <br> 
+           <h5><a href="">FAQ</a></h5>  <br>
+           <h5><a href="">Blog</a></h5> <br>
+           <h4>About</h4> <br>
+           <h5><a href="">About us</a></h5> <br>
+           <h5><a href="">Contact Us</a></h5> <br>
+           <h5><a href="">Terms and Conditions</a></h5> <br>
+           <h5><a href="">Privacy Policy</a></h5> <br>
+          
+        </div>
+        <div class="inds">
+            <h4>industries</h4> <br>
+            <h5><a href="">Maketing Awards</a></h5> <br>
+            <h5><a href="">Finance Awards</a></h5> <br>
+            <h5><a href="">International Busniness Awards</a></h5> <br>
+            <h5><a href="">Energy Awards</a></h5> <br>
+            <h5><a href="">Customer Service Awards</a></h5> <br>
+            <h5><a href="">Human Recource Awards</a></h5> <br>
+            <h5><a href="">Legal Awards</a></h5> <br>
+            <h5><a href="">Women Business Awards</a></h5> <br>
+            <h5><a href="">Supply Chain Awards</a></h5>  <br>
+            <h5><a href="">Healthcare Awards</a></h5> <br>
+            <h5><a href="">SaaS Awards</a></h5> <br>
+            <h5><a href="">Cybersecurity Awards</a></h5> <br>
+            <h5><a href="">Enterpreneur Awards</a></h5> <br>
+        </div>
+        <div class="ser">
+            <h4>Service</h4> <br>
+            <h5><a href="">Enter the Global Recognition Award</a></h5> <br>
+            <h5><a href="">Apply to Be A Judge</a></h5> <br>
+            <h5><a href="">Start Up Business Award Program</a></h5> <br>
+            <h4>Categories</h4> <br>
+            <h5><a href="">Hotels and Resorts</a></h5> <br>
+            <h5><a href="">Innovation Companies</a></h5> <br>
+            <h5><a href="">Enterpreneur</a></h5> <br>
+
+        </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <h5>Follow Us:</h5>
+    <div class="fa">
+        <a href="">facebook</a>
+        <a href="">instagram</a>
+        <a href="">twitter</a>
+        <a href="">whatsapp</a>
+    </div>
+    </footer>
+</body>
+</html>
